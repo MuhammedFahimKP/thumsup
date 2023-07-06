@@ -5,7 +5,7 @@ body{
     overflow-x: hidden;
 
 }main{
-    padding-top: 80px;
+  /*padding-top: 80px; */
 }
 .Header{
     display:flex;
@@ -19,10 +19,6 @@ body{
     font-family: 'Noto+Sans';
     font-weight: bold;
     padding: 20px 0px 20px;
-    position: fixed;
-    width: 100%;
-    padding: 0px;
-    z-index: 100;
 
 
 }.left-sec{
@@ -74,7 +70,10 @@ body{
     background-color: rgba(255, 255, 255, 0.695);
     /* background-color: aqua; */
     height: 100px;
-    /* position: sticky; */
+    position: sticky;
+    top:0;
+    z-index: 100;
+    background-color: #ffff;
 }.logo-container{
     /* background-color: lightpink; */
     padding: 16px 0px 0px;    
@@ -88,6 +87,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 40px 0 40px;
+    
 
 
 }.Banner-img-container{
